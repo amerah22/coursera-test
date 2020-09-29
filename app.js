@@ -13,7 +13,7 @@ function MyFirstController($scope) {
 
   $scope.SayHello = function() {
 
-    return "hello everybody";
+    return "Welcome Welocome";
   };
 
 
