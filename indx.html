@@ -8,8 +8,10 @@
   </head>
   <body>
     <div ng-controller="MyFirstController">
-      <p> hello my name is amerah </p>
-      {{name}}
+
+      {{SayHello()}}
+      <input type="text" ng-model = "name">
+      inside my input is : {{name}}
 </div>
   </body>
 </html>

@@ -8,6 +8,11 @@ angular.module('myFirstApp', [])
 
 $scope.name = "Amerah" ;
 
+$scope.SayHello = function() {
+
+  return "hello everybody";
+};
+
 });
 
 
